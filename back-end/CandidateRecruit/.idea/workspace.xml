@@ -1,36 +1,315 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="baa8cbdc-810e-4586-b459-0fc2d146e582" name="Changes" comment="" />
+    <list default="true" id="9627db33-5874-468b-8b79-a4640988ba08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/CandidateRecruit/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/CandidateRecruit/entity/GroupId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/CandidateRecruit/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/CandidateRecruit/repo/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/CandidateRecruit/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/CandidateRecruit/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud/crud/src/main/java/com/restapi/crud/dto/MobileDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud/crud/src/main/java/com/restapi/crud/entity/MobileDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud/crud/src/main/java/com/restapi/crud/mapper/MobileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud/crud/src/main/java/com/restapi/crud/repo/MobileRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapi/src/main/java/com/springboot/restapi/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapi/src/main/java/com/springboot/restapi/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapi/src/main/java/com/springboot/restapi/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapi/src/main/java/com/springboot/restapi/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapi/src/main/java/com/springboot/restapi/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapi/src/main/java/com/springboot/restapi/entity/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapi/src/main/java/com/springboot/restapi/repository/StockRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapi/src/main/java/com/springboot/restapi/repository/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapi/src/main/java/com/springboot/restapi/service/StockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapi/src/main/java/com/springboot/restapi/service/impl/StockServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.bak_0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.bak_0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.bak_1.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.bak_1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.bak_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.bak_2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.bak_3.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.bak_3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.bak_4.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.bak_4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.bak_5.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.bak_5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.bak_6.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.bak_6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.bak_7.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.bak_7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/repositories.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.indexes/30/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/java-program/.indexes/e4/81/22/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/java-program/.indexes/e4/81/36/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/java-program/.indexes/e4/81/ef/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/java-program/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/java-program/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/java-program/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/java-program/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/java-program/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/love-calculator/.indexes/e4/b9/22/81/ad/77/9c/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/love-calculator/.indexes/e4/b9/22/81/ad/77/9c/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/love-calculator/.indexes/e4/b9/22/81/ad/77/df/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/love-calculator/.indexes/e4/b9/b3/a8/a5/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/love-calculator/.indexes/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/love-calculator/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/love-calculator/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/love-calculator/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/love-calculator/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/love-calculator/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/love-calculator/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/spring-xml-based/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/spring-xml-based/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/spring-xml-based/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/spring-xml-based/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/spring-xml-based/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/AuthenticatedUserRealm.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/AuthenticatedUserRealm.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1070891845.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1164408636.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1173955381.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1498794745.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1592747248.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1596054400.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1685741523.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/181696658.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2119763204.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2119763204.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/228424824.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2285664146.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2314804846.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2316344107.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2399939044.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2437175596.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2609224479.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2656361340.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/269890071.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2884671587.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/315013852.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3171532252.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3245512511.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3298887010.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3354031137.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3391657868.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3401934593.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3414074400.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3602440618.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3793012025.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3982743227.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4007704517.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4116780942.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4227558025.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/442404944.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/513797735.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/659530787.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/746759448.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/785203336.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/797379002.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/888697594.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1547694136.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1547694136.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1593702551.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1593702551.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2119763204.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2119763204.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/315013852.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/translators/1013479608.translator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/translators/2437418433.translator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/translators/2516801003.translator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/translators/3736315945.translator" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/translators/3736315945.translator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/archetypesInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/archetypesInfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/love-calculator.lifecyclemapping" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/love-calculator.lifecyclemapping" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/spring-xml-based.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.jdt/love-calculator.container" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.jdt/love-calculator.container" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.jdt/spring-xml-based.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.search/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.search/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wildwebdeveloper.xml/system-catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wildwebdeveloper.xml/system-catalog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/servers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/servers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/publish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/publish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/home_002dpage_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/home_002dpage_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/register_002dsuccess_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/register_002dsuccess_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/result_002dpage_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/result_002dpage_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/result_002dpage_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/result_002dpage_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/sign_002din_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/sign_002din_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/sign_002din_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/love-calculator/org/apache/jsp/WEB_002dINF/view/sign_002din_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/META-INF/maven/myproject/love-calculator/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/META-INF/maven/myproject/love-calculator/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/META-INF/maven/myproject/love-calculator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/META-INF/maven/myproject/love-calculator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/config/ConfigApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/config/ConfigApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/LcAppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/LcAppController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/SampleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/SampleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/dto/UserInfoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/dto/UserInfoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/dto/UserRegisterDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/classes/com/springmvc/lc/dto/UserRegisterDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/view/result-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/love-calculator/WEB-INF/view/result-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.validation/dep.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.validation/dep.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servers/Tomcat v11.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Servers/Tomcat v11.0 Server at localhost-config/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../credit-card-bill-payment/target/m2e-wtp/web-resources/META-INF/maven/myproject/credit-card-bill-payment/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../credit-card-bill-payment/target/m2e-wtp/web-resources/META-INF/maven/myproject/credit-card-bill-payment/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-program/src/com/collections/ArrayListToArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-program/src/com/collections/ArrayListToArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-program/src/com/collections/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-program/src/com/collections/Generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-program/src/com/collections/MapInCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-program/src/com/collections/MapInCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-program/src/com/collections/TraverseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-program/src/com/collections/TraverseArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-program/src/com/string/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-program/src/com/string/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/config/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/config/ConfigApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/controller/LcAppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/controller/LcAppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/controller/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/converter/MobileConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/converter/MobileConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/dto/CommunicationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/dto/CommunicationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/dto/UserInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/dto/UserInfoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/dto/UserRegisterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/dto/UserRegisterDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/formatter/MobileFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/formatter/MobileFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/springvalidationapi/SpringValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/springvalidationapi/SpringValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/validator/Age.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/validator/AgeConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/validator/MobileConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/java/com/springmvc/lc/validator/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/webapp/WEB-INF/view/email-success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/webapp/WEB-INF/view/email-success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/src/main/webapp/WEB-INF/view/result-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/src/main/webapp/WEB-INF/view/result-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/config/ConfigApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/config/ConfigApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/controller/LcAppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/controller/LcAppController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/controller/SampleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/controller/SampleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/converter/MobileConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/converter/MobileConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/dto/CommunicationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/dto/CommunicationDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/dto/UserInfoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/dto/UserInfoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/dto/UserRegisterDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/dto/UserRegisterDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/formatter/MobileFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/formatter/MobileFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/springvalidationapi/SpringValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/springvalidationapi/SpringValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/validator/Age.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/validator/AgeConstraint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/validator/MobileConstraint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/com/springmvc/lc/validator/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator.war" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/config/ConfigApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/config/ConfigApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/LcAppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/LcAppController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/SampleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/controller/SampleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/dto/UserInfoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/dto/UserInfoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/dto/UserRegisterDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/dto/UserRegisterDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/webInitializer/LcAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/webInitializer/LcAppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/webInitializer/LcAppWebInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/classes/com/springmvc/lc/webInitializer/LcAppWebInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/view/home-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/view/home-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/view/register-success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/view/register-success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/view/result-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/view/result-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/view/sample-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/view/sample-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/view/sign-in.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/love-calculator/WEB-INF/view/sign-in.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/m2e-wtp/web-resources/META-INF/maven/myproject/love-calculator/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/m2e-wtp/web-resources/META-INF/maven/myproject/love-calculator/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/m2e-wtp/web-resources/META-INF/maven/myproject/love-calculator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/m2e-wtp/web-resources/META-INF/maven/myproject/love-calculator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../love-calculator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../love-calculator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-xml-based/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-xml-based/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-xml-based/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-xml-based/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-xml-based/target/m2e-wtp/web-resources/META-INF/maven/com.spring/spring-xml-based/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-xml-based/target/m2e-wtp/web-resources/META-INF/maven/com.spring/spring-xml-based/pom.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
-  <component name="ProjectId" id="2ud40c7Ya9N3VInB2FLrgPrGqhz" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ud47tyWK4kGfcVAJjVeQ40p1co" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CandidateRecruitApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/eclipse-workspace/CandidateRecruit"
+    "last_opened_file_path": "E:/FullStack/angular18-login-example-with-spring-boot-main/angular18-login-example-with-spring-boot-main/login-example",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="CandidateRecruitApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.capstone.CandidateRecruit.CandidateRecruitApplication" />
+      <module name="CandidateRecruit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.capstone.CandidateRecruit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CandidateRecruitApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="baa8cbdc-810e-4586-b459-0fc2d146e582" name="Changes" comment="" />
-      <created>1742564903645</created>
+      <changelist id="9627db33-5874-468b-8b79-a4640988ba08" name="Changes" comment="" />
+      <created>1742564953025</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1742564903645</updated>
+      <updated>1742564953025</updated>
     </task>
     <servers />
   </component>
